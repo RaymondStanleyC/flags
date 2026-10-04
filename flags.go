@@ -1,10 +1,5 @@
 // Package flags provides lightweight feature flag primitives for gating code
 // paths at runtime.
-//
-// It currently offers percentage-based rollouts: a Toggle is configured with a
-// probability between 0.0 and 1.0 and, each time it is evaluated, randomly
-// decides whether the feature is enabled. This makes it useful for gradual
-// rollouts, canary releases, and simple A/B experiments.
 package flags
 
 import (
